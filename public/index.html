@@ -1,0 +1,52 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="manifest" href="manifest.json">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="app/2d889527.vendor.css">
+    
+    <link rel="stylesheet" href="app/e95410f5.app.css">
+    
+    <script type="text/javascript">
+      window.CARRE_EDU_CONFIGURATION = 'CARRE_EDU_CONFIGURATION_REPLACE_OBJECT';
+      window.CARRE_EDU_CONFIGURATION = window.CARRE_EDU_CONFIGURATION!=='CARRE_EDU_CONFIGURATION_REPLACE_OBJECT'?window.CARRE_EDU_CONFIGURATION:
+      {debug:true,language:"el",api_url:"https://devices.duth.carre-project.eu/ws/",token_name:"CARRE_USER",subgraph_url:"edudata",auth_url:"https://devices.duth.carre-project.eu/devices/accounts/",graph_url:"carre.kmi.open.ac.uk"};
+
+    </script>
+
+    <base target="_blank" /><!-- Latest compiled and minified CSS -->
+
+  </head>
+  <body ng-app="edumaterialApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+      <div ng-hide="isEmbedded" ng-include="'components/navbar/navbar.html'"></div>
+      
+      <div ui-view=""></div>
+            
+      <div ng-hide="isEmbedded" ng-include="'components/footer/footer.html'"></div>
+      
+      
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+    <script src="app/ad1691da.vendor.js"></script>
+      
+        
+        <script src="app/7482de9e.app.js"></script>
+        
+</body>
+</html>
